@@ -31,21 +31,35 @@ public class Main {
 
         byte minutes = 20;
         int machinePerformance = (minutes / 2) * 16;
-        System.out.println("For " + minutes + " minutes the machine produced " + machinePerformance + " pieces of bottles");
+        System.out.println("For " + minutes + " minutes the machine produced " + machinePerformance +
+                " pieces of bottles");
 
         byte day = 1;
         int minutes1 = (day * 24) * 60;
         int machinePerformance1 = (minutes1 / 2) * 16;
-        System.out.println("For " + minutes1 + " minutes the machine produced " + machinePerformance1 + " pieces of bottles");
+        System.out.println("For " + minutes1 + " minutes the machine produced " + machinePerformance1 +
+                " pieces of bottles");
 
         byte day1 = 3;
         int minutes2 = (day1 * 24) * 60;
         int machinePerformance2 = (minutes2 / 2) * 16;
-        System.out.println("For " + minutes2 + " minutes the machine produced " + machinePerformance2 + " pieces of bottles");
+        System.out.println("For " + minutes2 + " minutes the machine produced " + machinePerformance2 +
+                " pieces of bottles");
 
         byte month = 1;
         int day2 = month * 30;
         int minutes3 = (day2 * 24) * 60;
         int machinePerformance3 = (minutes3 / 2) * 16;
-        System.out.println("For " + minutes3 + " minutes the machine produced " + machinePerformance3 + " pieces of bottles");
+        System.out.println("For " + minutes3 + " minutes the machine produced " + machinePerformance3 +
+                " pieces of bottles");
+
+
+        byte totalPaint = 120;
+        byte whiteColor = 2;
+        byte brownColor = 4;
+        int totalClass = totalPaint / (whiteColor + brownColor);
+        int totalWhite = totalClass * whiteColor;
+        int totalBrown = totalClass * brownColor;
+        System.out.println("In a school with " + totalClass + " classes, you will need " + totalWhite +
+                " cans of white paint and " + totalBrown + " cans of brown paint");
     }}

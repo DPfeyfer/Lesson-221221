@@ -22,4 +22,10 @@ public class Main {
         byte number7 = 67;
 
 
+        byte luba = 23;
+        byte ann = 27;
+        byte katy = 30;
+        short paper = 480;
+        int calculated = paper / (luba + ann + katy);
+        System.out.println("For each student is calculated " + calculated + " sheets of paper");
     }}

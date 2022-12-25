@@ -13,6 +13,7 @@ public class Main {
         double waterMolecule = 0.00000000003;
         System.out.println("The value of a waterMolecule with type double is " + waterMolecule);
 
+
         float number1 = 27.12f;
         long number2 = 987678965549L;
         float number3 = 2.786f;
@@ -63,6 +64,7 @@ public class Main {
         System.out.println("In a school with " + totalClass + " classes, you will need " + totalWhite +
                 " cans of white paint and " + totalBrown + " cans of brown paint");
 
+
         byte bananas = 80;
         byte milk = 105;
         byte iceCream = 100;
@@ -71,5 +73,16 @@ public class Main {
         float kgWeight = gramWeight / 1000f;
         System.out.println(gramWeight + " Gram");
         System.out.println(kgWeight + " Kg");
+
+
+        byte loseWeight = 7;
+        byte neededDay = (byte) ((loseWeight * 1000) / 250);
+        byte neededDay1 = (byte) ((loseWeight * 1000) / 500);
+        byte averageValue = (byte)((neededDay + neededDay1) / 2);
+        System.out.println("Sportsmen needs " + neededDay + " days if he to loses weight by 250 gram. " +
+                "Sportsmen needs " + neededDay1 + " days if he to loses weight by 500 gram, average " +
+                averageValue + " days!");
+
+
 
     }}

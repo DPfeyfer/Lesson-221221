@@ -84,5 +84,17 @@ public class Main {
                 averageValue + " days!");
 
 
-
+        int mariSalary = 67760;
+        int denSalary = 83690;
+        int krisSalary = 76230;
+        byte increasePerYear = 10;
+        int mariIncreases = ((mariSalary * increasePerYear) / 100) + mariSalary;
+        int denIncreases = ((denSalary * increasePerYear) / 100) + denSalary;
+        int krisIncreases = ((krisSalary * increasePerYear)) / 100 + krisSalary;
+        System.out.println("Mari now receives " + mariIncreases + " rubles. Annual income " +
+                "increased by " + ((mariIncreases - mariSalary) * 12) + " rubles.");
+        System.out.println("Den now receives " + denIncreases + " rubles. Annual income " +
+                "increased by " + ((denIncreases - denSalary) * 12) + " rubles.");
+        System.out.println("Kris now receives " + krisIncreases + " rubles. Annual income " +
+                "increased by " + ((krisIncreases - krisSalary) * 12) + " rubles.");
     }}

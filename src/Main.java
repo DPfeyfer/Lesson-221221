@@ -48,7 +48,7 @@ public class Main {
 
         byte month = 1;
         int day2 = month * 30;
-        int minutes3 = (day2 * 24) * 60;
+        short minutes3 = (short) ((day2 * 24) * 60);
         int machinePerformance3 = (minutes3 / 2) * 16;
         System.out.println("For " + minutes3 + " minutes the machine produced " + machinePerformance3 +
                 " pieces of bottles");
@@ -62,4 +62,14 @@ public class Main {
         int totalBrown = totalClass * brownColor;
         System.out.println("In a school with " + totalClass + " classes, you will need " + totalWhite +
                 " cans of white paint and " + totalBrown + " cans of brown paint");
+
+        byte bananas = 80;
+        byte milk = 105;
+        byte iceCream = 100;
+        byte eggs = 70;
+        int gramWeight = (5 * bananas) + (2 * milk) + (2 * iceCream) + (4 * eggs);
+        float kgWeight = gramWeight / 1000f;
+        System.out.println(gramWeight + " Gram");
+        System.out.println(kgWeight + " Kg");
+
     }}

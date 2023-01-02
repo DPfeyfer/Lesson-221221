@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+        //task 1
+        System.out.println("task 1");
         int dollars = 3465000;
         System.out.println("The value of a variable dollars with type int is " + dollars);
         byte temperatureMoon = -128;
@@ -14,15 +16,26 @@ public class Main {
         System.out.println("The value of a waterMolecule with type double is " + waterMolecule);
 
 
+        //task 2
+        System.out.println("task 2");
         float number1 = 27.12f;
+        System.out.println(number1);
         long number2 = 987678965549L;
+        System.out.println(number2);
         float number3 = 2.786f;
-        int number4 = 569;
-        int number5 = -159;
+        System.out.println(number3);
+        short number4 = 569;
+        System.out.println(number4);
+        int number5 = 159;
+        System.out.println(number5);
         int number6 = 27897;
+        System.out.println(number6);
         byte number7 = 67;
+        System.out.println(number7);
 
 
+        //task 3
+        System.out.println("task 3");
         byte luba = 23;
         byte ann = 27;
         byte katy = 30;
@@ -30,6 +43,9 @@ public class Main {
         int calculated = paper / (luba + ann + katy);
         System.out.println("For each student is calculated " + calculated + " sheets of paper");
 
+
+        //task 4
+        System.out.println("task 4");
         byte minutes = 20;
         int machinePerformance = (minutes / 2) * 16;
         System.out.println("For " + minutes + " minutes the machine produced " + machinePerformance +
@@ -49,12 +65,14 @@ public class Main {
 
         byte month = 1;
         int day2 = month * 30;
-        short minutes3 = (short) ((day2 * 24) * 60);
+        int minutes3 = ((day2 * 24) * 60);
         int machinePerformance3 = (minutes3 / 2) * 16;
         System.out.println("For " + minutes3 + " minutes the machine produced " + machinePerformance3 +
                 " pieces of bottles");
 
 
+        //task 5
+        System.out.println("task 5");
         byte totalPaint = 120;
         byte whiteColor = 2;
         byte brownColor = 4;

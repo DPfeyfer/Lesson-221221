@@ -83,6 +83,8 @@ public class Main {
                 " cans of white paint and " + totalBrown + " cans of brown paint");
 
 
+        //task 6
+        System.out.println("task 6");
         byte bananas = 80;
         byte milk = 105;
         byte iceCream = 100;
@@ -93,15 +95,19 @@ public class Main {
         System.out.println(kgWeight + " Kg");
 
 
+        //task 7
+        System.out.println("task 7");
         byte loseWeight = 7;
         byte neededDay = (byte) ((loseWeight * 1000) / 250);
         byte neededDay1 = (byte) ((loseWeight * 1000) / 500);
-        byte averageValue = (byte)((neededDay + neededDay1) / 2);
+        byte averageValue = (byte) ((neededDay + neededDay1) / 2);
         System.out.println("Sportsmen needs " + neededDay + " days if he to loses weight by 250 gram. " +
                 "Sportsmen needs " + neededDay1 + " days if he to loses weight by 500 gram, average " +
                 averageValue + " days!");
 
 
+        //task 8
+        System.out.println("task 8");
         int mariSalary = 67760;
         int denSalary = 83690;
         int krisSalary = 76230;
